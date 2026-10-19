@@ -35,9 +35,9 @@ predictors = ['CO2EQ','NINO34','PDO','AMO','IOD','CPREC','PERS','PERS_TREND']
 resolution = 1             # 1, 2.5 or 5.0
 
 ## Redo full hindcast period and remove original nc output file?
-overwrite = False
+overwrite = True
 ## Redo a specific month / year?
-overwrite_m = True          # Overwrite only the month specified with overw_m and overw_y
+overwrite_m = False          # Overwrite only the month specified with overw_m and overw_y
 overw_m = 11                # Jan = 1, Feb = 2.. etc
 overw_y = 2019
 
